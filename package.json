@@ -1,0 +1,38 @@
+{
+    "name": "csci5193_team2_groupproject",
+    "version": "1.0.0",
+    "description": "Group project",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon -r dotenv/config app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krutin47/CSCI5193_Team2_GroupProject.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/krutin47/CSCI5193_Team2_GroupProject/issues"
+    },
+    "homepage": "https://github.com/krutin47/CSCI5193_Team2_GroupProject#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "dotenv": "^10.0.0",
+        "mongoose": "^5.12.14",
+        "morgan": "~1.9.1",
+        "bcryptjs": "^2.4.3",
+        "nodemailer": "^6.6.2",
+        "nodemon": "^2.0.7",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
